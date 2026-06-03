@@ -1,0 +1,19 @@
+me = input("Enter your age: ")
+my_friend = input("Now enter your friend's age: ")
+
+if me > my_friend:
+    print("you are older then your friend!")
+else:
+    print("your friend is older than you!")
+
+#======================================================================================================
+
+num_1 = input("Enter the first number: ")
+num_2 = input("Now enter the second number: ")
+
+if num_1 > num_2:
+    print("the first number is larger.")
+elif num_1 == num_2:
+    print("the both entered number are equal.")
+else:
+    print("the second number is larger")
