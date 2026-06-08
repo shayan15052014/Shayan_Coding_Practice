@@ -6,5 +6,5 @@ for z in range(1,number + 1):
 #=======================================================================================================
 
 num = int(input("Enter a number: "))
-for z in range(1,num,1):
-    print
+for z in range():
+    print()
