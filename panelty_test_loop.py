@@ -51,18 +51,20 @@ print("Number of vowels:", count)
 
 #===========Q3 = print the followwing pattern(*, **, ***, ****, *****)=========================#
 
-print("*")
-print("**")
-print("***")
-print("****")
-print("*****")
+for z in range(1, 6):   
+    print("*" * z)
 
 #==========================Q4 = Find the largest number in the follwing list:==========================#
 #                          numbers = 12, 45, 2, 67, 34, 89, 23
 
 numbers = [12, 45, 2, 67, 34, 89, 23]
-largest = max(numbers)
-print("The largest number is:", largest)
+
+largest = numbers[0]
+for n in numbers:
+    if n > largest:
+        largest = n
+
+print(largest)
 
 #============Q5 = Reverse a string using a for loop===========================#
 
@@ -83,11 +85,8 @@ print("Reversed string:", reversed_text)
 #                       **
 #                       *
 
-print("*****")
-print("****")
-print("***")
-print("**")
-print("*")
+for z in range(5, 0, -1):   
+    print("*" * z)
 
 #=========Q2 = Create the following right-angled triangle pattren:===========================#
 #              *
@@ -96,8 +95,6 @@ print("*")
 #           ****
 #          *****
 
-print("     *")
-print("    **")
-print("   ***")
-print("  ****")
-print(" *****")
+rows = 5
+for i in range(1, rows + 1):
+    print(" " * (rows - i) + "*" * i)
