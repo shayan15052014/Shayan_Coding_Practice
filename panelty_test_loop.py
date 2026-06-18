@@ -14,7 +14,7 @@ for z in range(1,21):
 
 num = 5
 for z in range(1, 11):
-    print(str(num) + " x " + str(z) + " = " + str(num * z))
+    print(str(num) +" x " + str(z) + " = " + str(num * z))
 
 #=========Q4 = Calculate and print the sum of numbers 1-100=================================#
 
@@ -43,8 +43,8 @@ for z in range(1, 11):
 text = input("Enter a string: ")
 vowels = "aeiouAEIOU"
 count = 0
-for char in text:
-    if char in vowels:
+for cha in text:
+    if cha in vowels:
         count += 1
 
 print("Number of vowels:", count)
