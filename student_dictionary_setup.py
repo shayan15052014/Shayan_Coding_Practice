@@ -11,9 +11,7 @@ def show_menu():
 
 
 while True:
-    show_menu(
-        
-    )
+    show_menu()
     choice = int(input("Enter your choice: "))
     if choice == 1:
         adding_key = input("enter key: ")
@@ -49,4 +47,3 @@ while True:
 
     if choice == 6:
         break
-        
